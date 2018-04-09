@@ -1,0 +1,12 @@
+.navbar {
+    float: left;
+    margin: 0px 50px 10px 10px;
+    text-decoration-color: cornflowerblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+body {
+    background-color: cornsilk;
+    height: 100%;
+}
