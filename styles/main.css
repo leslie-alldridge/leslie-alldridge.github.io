@@ -1,9 +1,10 @@
 .navbar {
     /*position*/
     overflow: hidden;
-    position: fixed;
+    position: fixed top;
     width: 100%;
-    margin: 0px 50px 10px 10px;
+    
+    
     /*other properties */
     text-decoration-color: cornflowerblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,10 +17,18 @@
     float: left;
     display: block;
     text-align: center;
+    padding: 10px 10px;
 }
 
 body {
     background-color: cornsilk;
     height: 100%;
-    margin: 80px 20px 20px 20px;
+    margin-top: 30px;
+}
+
+.image {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
 }
