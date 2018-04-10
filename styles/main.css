@@ -1,9 +1,10 @@
 .navbar {
     /*position*/
     overflow: hidden;
-    position: fixed top;
+    position: fixed;
+    top: 0;
     width: 75%;
-    float: center;
+    margin-left: 25%;
     
     
     /*other properties */
@@ -23,14 +24,15 @@
 
 a:hover {
     color: black;
-    border: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
 }
 
 body {
     background-color: #d4e1f7;
     height: 100%;
     margin-top: 30px;
-    float: center;
+    margin-left: 25%;
 }
 
 .content {
