@@ -3,6 +3,7 @@
     overflow: hidden;
     position: fixed top;
     width: 75%;
+    float: center;
     
     
     /*other properties */
@@ -22,12 +23,14 @@
 
 a:hover {
     color: black;
+    border: 2px solid white;
 }
 
 body {
     background-color: #d4e1f7;
     height: 100%;
     margin-top: 30px;
+    float: center;
 }
 
 .content {
@@ -40,6 +43,7 @@ body {
 
 h1, h3, li {
     font-family: 'Raleway', sans-serif;
+    margin-left: 5px;
 }
 
 p {
