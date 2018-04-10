@@ -9,7 +9,7 @@
     text-decoration-color: cornflowerblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.2em;
-    background-color: crimson;
+    background-color: #d4e1f7;
     border: 2px solid white;
 }
 
@@ -21,9 +21,26 @@
 }
 
 body {
-    background-color: cornsilk;
+    background-color: #d4e1f7;
     height: 100%;
     margin-top: 30px;
+}
+
+.content {
+    margin-left: 1.66%;
+	font-size: 23px;
+    font-weight: 800;
+    width: 40%;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
 
 .image {
