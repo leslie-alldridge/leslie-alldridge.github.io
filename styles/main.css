@@ -2,7 +2,7 @@
     /*position*/
     overflow: hidden;
     position: fixed top;
-    width: 100%;
+    width: 75%;
     
     
     /*other properties */
@@ -31,8 +31,7 @@ body {
 }
 
 .content {
-    margin-left: 1.66%;
-	font-size: 23px;
+	font-size: 20px;
     width: 75%;
     padding-bottom: 20px;
     background-color: white;
