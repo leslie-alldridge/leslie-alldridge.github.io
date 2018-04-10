@@ -3,7 +3,7 @@
     overflow: hidden;
     position: fixed;
     top: 0;
-    width: 59%;
+    width: 80%;
     
     
     
@@ -47,11 +47,13 @@ body {
 h1, h3, li {
     font-family: 'Raleway', sans-serif;
     margin-left: 5px;
+    margin-right: 5px;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
     margin-left: 5px;
+    margin-right: 5px;
 }
 
 .image {
