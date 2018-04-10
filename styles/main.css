@@ -3,16 +3,14 @@
     overflow: hidden;
     position: fixed;
     top: 0;
-    width: 80%;
-    
-    
+    width: 100%;
     
     /*other properties */
     text-decoration-color: cornflowerblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.2em;
     background-color: #d4e1f7;
-    border: 2px solid white;
+    border: 0px solid white;
 }
 
 .navbar a {
@@ -28,11 +26,10 @@ a:hover {
     border-right: 2px solid white;
 }
 
-body {
-    background-color: #d4e1f7;
+.container {
     height: 100%;
     margin-top: 30px;
-    margin-left: 25%;
+    width: 100%;
 }
 
 .content {
@@ -42,6 +39,8 @@ body {
     padding-top: 10px;
     background-color: white;
     height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 h1, h3, li {
