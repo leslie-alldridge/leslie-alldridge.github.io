@@ -69,3 +69,17 @@ p {
     transform: scale(1.1); 
 }
 
+/* Page 3 HTML CSS DOM styles */
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
+
+.click {
+    margin-left: 20%;
+    transition-duration: 50ms;
+}
