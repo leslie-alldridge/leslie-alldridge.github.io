@@ -64,7 +64,7 @@ p {
     border: 2px solid black;
 }
 
-.image:click {
+.image:hover {
     transition: all .2s ease-in-out;
     transform: scale(1.1); 
 }
