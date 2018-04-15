@@ -75,11 +75,13 @@ p {
     color: red;
 }
 
-.black {
-    color: black;
+.blue {
+    color: blue;
 }
 
-.click {
-    margin-left: 20%;
-    transition-duration: 50ms;
+.click:hover {	
+    -moz-animation: scroll-left 5s linear infinite;
+    -webkit-animation: scroll-left 5s linear infinite;
+    animation: scroll-left 5s linear infinite;
 }
+
