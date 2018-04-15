@@ -79,9 +79,10 @@ p {
     color: blue;
 }
 
-.click:hover {	
-    -moz-animation: scroll-left 5s linear infinite;
-    -webkit-animation: scroll-left 5s linear infinite;
-    animation: scroll-left 5s linear infinite;
+.cardrive {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+    width: 0px;
+    height: 0px;
 }
 
