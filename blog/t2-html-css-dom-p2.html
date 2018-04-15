@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leslie's Blog - HTML, CSS & DOM - Part Two</title>
+    <link href="/leslie-alldridge.github.io/styles/main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+  </head>
+  <body>
+      <!-- top nav bar div -->
+        <div class="navbar">
+            <a href="/leslie-alldridge.github.io/index.html">Home</a>
+            <a href="/leslie-alldridge.github.io/blog/c1-reflection-blog.html">Blog 1</a>    
+            <a href="/leslie-alldridge.github.io/blog/c1-time-and-habits-blog.html">Blog 2</a>
+            <a href="/leslie-alldridge.github.io/blog/t2-html-css-dom-p1.html">Blog 3</a>
+            <a href="/leslie-alldridge.github.io/blog/t2-html-css-dom-p2.html">Blog 4</a>
+        </div>
+        <!-- content starts here -->
+      <div class="container">
+      <div class="content">  
+      <h1>HTML, CSS & DOM - Part Two</h1>
+      <ul>
+            <li>What is grid based design?</li>
+                <p>
+                    Grid based design is used to place boxes (or other shapes) within a webpage. You can define the width of the webpage itself and fill the page with content
+                    of differing sizes. For example, if you defined the page as being 12 columns wide there could be 4 x 3 column wide boxes or a single 1 x 12 box. There is 
+                    lots of room to customise here. 
+
+                    A grid based approach will help content stay in a particular alignment when the webpage is responsive in nature. The grid isn't static and if you define 12 columns regardless of
+                    the page width, 12 columns will appear either side by side or stacked one above another. If we weren't using grid based design principles, it would be a mission
+                    plotting out a static area using x and y axis to create content. Furthermore, if the page shrinks you'd lose the content from the current view.
+                </p>
+            <li>Whats all the hype about responsive webpages?</li>
+                <p>
+                    Responsive webpages are very important as a myriad of devices are in existance. We don't have one set aspect ratio and screen resolution anymore. 
+                    Tablets, cell phones, laptops and ultra wide monitors to name a few. When creating webpages we need to be cautious that our content is visible on mobile and 
+                    desktop devices. When building my blog from the start, I've been using percentages in order to achieve a responsive web page. This way, if the 
+                    window is resized, my content within will still be 60% or 20% of the page, and shrink along with the browser window. 
+
+                    To take this further, I look forward to integrating a hamburger navbar menu - as the number of blog posts grow my navbar will start to struggle 
+                    on a mobile device. It worked as of HTML, CSS & DOM Part One - but it'll be interesting to see how many blogs it can take before not looking nice on mobile.
+                </p>
+            <li>What is semantic structure?</li>
+                <p> 
+                    I understand semantic structure as being the correct layout (organisation) for a website. This can be as simple as having the correct order of elements (head, body, etc). 
+                    Semantic structure also goes deeper. If you're using a stylesheet, you wouldn't expect to see font coloring defined using HTML and font face (or style) set using CSS.
+                    
+                    In addition, ID's, classes and other attributes should have names that make sense. The top navbar wouldn't be called 'footer' or 'content'. Usually, it would
+                    have the name navbar or navigation. 
+
+                    Comments can be really helpful in defining structure and personally I use div container a lot as this makes it easy to find where the actual content begins. 
+                </p>
+            <li>Any other points you found interesting and want to reflect on.</li>
+                <p>
+                    I found my paragraph tags failed verification. Generally, you wouldn't have paragraph tags inside a list item element. However, 
+                    further research shows while it's not semantic (or perfect), the functionality of the page isn't impacted at all. 
+
+                    I'll have to clarify with a tutor to see what other options are available. I tried using span tags, but those also didn't pass. I did further
+                    research but couldn't find a conclusive answer. Maybe there isn't one.  
+                </p>
+      </ul>
+      </div>
+      </div>
+  </body>
+</html>
