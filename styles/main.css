@@ -86,3 +86,11 @@ img:hover {
 .bold {
     font-weight: bold;
 }
+
+li {
+    font-family: 'Lato', sans-serif;
+}
+
+li, p {
+    font-family: 'Poppins', sans-serif;
+}
