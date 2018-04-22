@@ -95,3 +95,9 @@ li {
 li, p {
     font-family: 'Poppins', sans-serif;
 }
+
+image {
+    max-width: 150px;
+    max-height: 150px;
+    
+}
