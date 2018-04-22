@@ -107,4 +107,5 @@ li, p {
 .wire {
     max-width: 400px;
     max-height: 400px;
+    border: 2px solid rgb(70, 130, 180, 0.3);
 }
