@@ -60,9 +60,11 @@ img:hover {
     color: white;
     text-align: left;
     padding-left: 20px;
-   
-    
-   
+      
+}
+
+.section-heading {
+    margin-left: -25px;
 }
 
 .endtext {
@@ -96,8 +98,8 @@ li, p {
     font-family: 'Poppins', sans-serif;
 }
 
-image {
-    max-width: 150px;
-    max-height: 150px;
+.image {
+    max-width: 300px;
+  
     
 }
