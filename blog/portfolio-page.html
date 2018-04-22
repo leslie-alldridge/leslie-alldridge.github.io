@@ -1,196 +1,84 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Leslie's Reflection Blog</title>
+    <title>Leslie's Blog Template</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Poppins" rel="stylesheet">
   </head>
   <body>
       
-          <!-- NavBar -->
+     <!-- NavBar -->
 	<nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-              <div class="navbar-header">
-                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Leslie's Blog</a>
-              </div>
-              <div class="collapse navbar-collapse" id="bs-nav-demo">
-                <ul class="nav navbar-nav">
-                  <li><a href="#">Home</a></li>
-                  <li class="dropdown">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blogs <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Personal</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Technical</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Reflections</a></li>
-                      </ul>
-                    </li>
-                  <li><a href="#">Portfolio</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right"> 
-                  <li><a href="#">Links</a></li>
-                  <li><a href="#">About</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-           <!-- nav ends here and content begins -->
-      
-          <div class="container">
-            <div class="row" id="header">
-              <div class="twelve columns">
-                <h1 class="jumbotron-heading">Technical Blogs</h1>
-                <p class="lead text-muted">Feel free to explore my other blog posts, images, and portfolio.</p>
-              </div>
-            </div>
-      
-            <div class="section categories">
-                <div class="container">
-                <h3 class="section-heading">Technical examples and explanations</h3>
-              </div>
-            </div>
-          
-            <div id="contentblog">
-              <div class="twelve columns">
-                <p class="section content">
-                  
-                  <div class="panel-group" id="accordion">
-                    <div class="panel panel-default">
-                      <div class="panel-heading">
-                        <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                          HTML CSS & DOM - Learning the differences</a>
-                        </h4>
-                      </div>
-                      <div id="collapse1" class="panel-collapse collapse in">
-                        <div class="panel-body">
-                                <p class="section content">
-                                        <ul class="answers">
-                                                
-                                                        <li>Can you think of an analogy to describe HTML, CSS and the DOM? How would you describe it to your non-technical friend?</li>
-                                                            <p>
-                                                                If we were to think of HTML, CSS and the DOM in terms of a car. The HTML would be the shell of the car, seats, engine and other parts the car
-                                                                needs to run. The CSS would be the color of the shell, color of the seats and other style elements the car has. The DOM is an action, so when
-                                                                the key is turned, the engine starts. The window going down is the DOM as it's manipulating the window to become smaller. 
-                                                            </p>
-                                                            <p>
-                                                                Here you can see plain html text. Like the car without paint or any features (scrolling windows, started engine).
-                                                                Now let's paint the car <span class="red">red</span> and the seats <span class="blue">blue</span> using CSS.
-                                                                Lastly, when the user clicks the button below we can watch the car drive away using the DOM.
-                                                                <img class="" id="car" src="/leslie-alldridge.github.io/images/car.png" alt="car"/>
-                                                                <button onclick="carDrive()">Let's Drive</button>
-                                                                        <!-- java below to make car drive -->
-                                                                        <script>
-                                                                            function carDrive() {
-                                                                                var carclass = document.getElementById("car");
-                                                                                carclass.classList.toggle("cardrive");
-                                                                            }
-                                                                        </script>
-                                                                        <!-- java ends -->
-                                                            </p>
-                                                        <li>What is meant by boxifying design?</li>
-                                                            <p>
-                                                                Boxifying design is when you can design a web page using a series of boxes. At first, you'll see a logo and header, content and some kind of navigation bar or menu. 
-                                                                The challenge here, is to reduce all of this content into their own individual (or grouped) boxes. This enables us to create the website using boxes. Each div will equal 
-                                                                one box. 
-                                            
-                                                                You can use tools outside of coding to best visualise the webpage as a series of boxes. I'll probably draw my new design down and/or cut it out into boxes 
-                                                                using paper and scissors. It's important to understand the boxifying design of a webpage - otherwise it's very difficult to float and align content nicely on a page.
-                                                            </p>
-                                                        <li>What is the box model?</li>
-                                                            <p> 
-                                                                The box model is a concept where every HTML element can be packed into a box. Each box can have its own order, direction, padding, margin and many other styles. Using
-                                                                CSS we will be able to change how the box appears. With the box model you can easily edit/style lots of content at once, or each individual piece of content one by one. 
-                                                                Because all smaller boxes are nested within a large box, you could add a page border and background color, but select the smaller boxes and give those a contrasting background color and their own individual borders.
-                                                            </p>
-                                                  </ul>  </p></div>
-                                      </div>
-                    
-                    </div>
-                    <div class="panel panel-default">
-                      <div class="panel-heading">
-                        <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                          HTML + CSS & DOM - Grids and boxes + Semantic structure</a>
-                        </h4>
-                      </div>
-                      <div id="collapse2" class="panel-collapse collapse">
-                        <div class="panel-body"> <ul class="answers">
-                                <li>What is grid based design?</li>
-                                    <p>
-                                        Grid based design is used to place boxes (or other shapes) within a webpage. You can define the width of the webpage itself and fill the page with content
-                                        of differing sizes. For example, if you defined the page as being 12 columns wide there could be 4 x 3 column wide boxes or a single 1 x 12 box. There is 
-                                        lots of room to customise here. 
-                    
-                                        A grid based approach will help content stay in a particular alignment when the webpage is responsive in nature. The grid isn't static and if you define 12 columns regardless of
-                                        the page width, 12 columns will appear either side by side or stacked one above another. If we weren't using grid based design principles, it would be a mission
-                                        plotting out a static area using x and y axis to create content. Furthermore, if the page shrinks you'd lose the content from the current view.
-                                    </p>
-                                <li>Whats all the hype about responsive webpages?</li>
-                                    <p>
-                                        Responsive webpages are very important as a myriad of devices are in existance. We don't have one set aspect ratio and screen resolution anymore. 
-                                        Tablets, cell phones, laptops and ultra wide monitors to name a few. When creating webpages we need to be cautious that our content is visible on mobile and 
-                                        desktop devices. When building my blog from the start, I've been using percentages in order to achieve a responsive web page. This way, if the 
-                                        window is resized, my content within will still be 60% or 20% of the page, and shrink along with the browser window. 
-                    
-                                        To take this further, I look forward to integrating a hamburger navbar menu - as the number of blog posts grow my navbar will start to struggle 
-                                        on a mobile device. It worked as of HTML, CSS & DOM Part One - but it'll be interesting to see how many blogs it can take before not looking nice on mobile.
-                                    </p>
-                                <li>What is semantic structure?</li>
-                                    <p> 
-                                        I understand semantic structure as being the correct layout (organisation) for a website. This can be as simple as having the correct order of elements (head, body, etc). 
-                                        Semantic structure also goes deeper. If you're using a stylesheet, you wouldn't expect to see font coloring defined using HTML and font face (or style) set using CSS.
-                                        
-                                        In addition, ID's, classes and other attributes should have names that make sense. The top navbar wouldn't be called 'footer' or 'content'. Usually, it would
-                                        have the name navbar or navigation. 
-                    
-                                        Comments can be really helpful in defining structure and personally I use div container a lot as this makes it easy to find where the actual content begins. 
-                                    </p>
-                                <li>Any other points you found interesting and want to reflect on.</li>
-                                    <p>
-                                        I found my paragraph tags failed verification. Generally, you wouldn't have paragraph tags inside a list item element. However, 
-                                        further research shows while it's not semantic (or perfect), the functionality of the page isn't impacted at all. 
-                    
-                                        I'll have to clarify with a tutor to see what other options are available. I tried using span tags, but those also didn't pass. I did further
-                                        research but couldn't find a conclusive answer. Maybe there isn't one.  
-                                    </p>
-                          </ul></div>
-                      </div>
-                    </div>
-                    <div class="panel panel-default">
-                      <div class="panel-heading">
-                        <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                            Post 3 - Coming soon</a>
-                        </h4>
-                      </div>
-                      <div id="collapse3" class="panel-collapse collapse">
-                        <div class="panel-body">Stay tuned</div>
-                      </div>
-                    </div>
-                  </div>
-                    
-              <div class="ten columns">
-              
-              <div class="two columns footer">
-                © Leslie 2018
-              </div>
+    <div class="container">
+      <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="../index.html" class="navbar-brand"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Leslie's Blog</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-nav-demo">
+        <ul class="nav navbar-nav">
+          <li><a href="../index.html">Home</a></li>
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blogs <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="./personal-blog-home.html">Personal</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="./technical-page.html">Technical</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="./reflection-page.html">Reflections</a></li>
+              </ul>
+            </li>
+          <li><a href="./portfolio-page.html">Portfolio</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right"> 
+          <li><a href="./links-page.html">Links</a></li>
+          <li><a href="./about-page.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   <!-- nav ends here and content begins -->
+
+    <div class="container">
+      <div class="row" id="header">
+        <div class="twelve columns">
+          <h1 class="jumbotron-heading">Leslie's Blog - Portfolio Page</h1>
+          <p class="lead text-muted">Feel free to explore my blog posts, images, and portfolio.</p>
         </div>
+      </div>
+
+      <div class="section categories">
+          <div class="container">
+          <h3 class="section-heading">About</h3>
+        </div>
+      </div>
+    
+      <div id="content">
+        <div class="twelve columns"></div>
+          
+        Portfolio 
+                  <div class="row twelve columns">
+                  <p class="endtext">Thanks for checking out my page!   </p></div>
+              </div>
+                <div class="ten columns">
+                
+                <div class="two columns footer">
+                  © Leslie 2018
+                </div>
+          </div>
+            </div>
     
     <script type="text/javascript"
-      src="http://code.jquery.com/jquery-3.2.1.min.js"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
       crossorigin="anonymous">
     </script>
